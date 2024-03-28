@@ -1,11 +1,6 @@
 // Package yoosettings describes all the necessary entities for working with YooMoney Settings.
 package yoosettings
 
-import (
-	"github.com/rvinnie/yookassa-sdk-go/yookassa/payment"
-	"github.com/rvinnie/yookassa-sdk-go/yookassa/payout"
-)
-
 // Settings object contains relevant information about the configuration of the store or gateway.
 type Settings struct {
 	// Store's or gateway's ID in YooMoney.

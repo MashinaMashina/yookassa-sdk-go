@@ -3,10 +3,10 @@ package yookassa
 
 import (
 	"encoding/json"
-	yooerror "github.com/rvinnie/yookassa-sdk-go/yookassa/errors"
-	"github.com/rvinnie/yookassa-sdk-go/yookassa/settings"
 	"io"
 	"net/http"
+
+	yooerror "github.com/MashinaMashina/yookassa-sdk-go/yookassa/errors"
 )
 
 const (

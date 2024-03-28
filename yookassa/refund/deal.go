@@ -1,8 +1,6 @@
 // Package yoorefund describes all the necessary entities for working with YooMoney Refunds.
 package yoorefund
 
-import "github.com/rvinnie/yookassa-sdk-go/yookassa/common"
-
 // The Deal within which the payment is being carried out.
 type Deal struct {
 	// Deal ID. Taken from the linked payment.

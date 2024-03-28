@@ -1,8 +1,6 @@
 // Package yoopayment describes all the necessary entities for working with YooMoney Payments.
 package yoopayment
 
-import "github.com/rvinnie/yookassa-sdk-go/yookassa/common"
-
 // The Deal within which the payment is being carried out.
 type Deal struct {
 	// Deal ID.
