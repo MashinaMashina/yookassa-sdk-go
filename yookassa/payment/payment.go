@@ -3,6 +3,8 @@ package yoopayment
 
 import (
 	"time"
+
+	yoocommon "github.com/MashinaMashina/yookassa-sdk-go/yookassa/common"
 )
 
 // The Payment object contains all currently relevant information

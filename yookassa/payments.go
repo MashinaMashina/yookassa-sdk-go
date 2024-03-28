@@ -9,6 +9,7 @@ import (
 	"net/http"
 
 	yooerror "github.com/MashinaMashina/yookassa-sdk-go/yookassa/errors"
+	yoopayment "github.com/MashinaMashina/yookassa-sdk-go/yookassa/payment"
 )
 
 const (

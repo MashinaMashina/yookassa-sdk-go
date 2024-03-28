@@ -7,6 +7,7 @@ import (
 	"net/http"
 
 	yooerror "github.com/MashinaMashina/yookassa-sdk-go/yookassa/errors"
+	yoosettings "github.com/MashinaMashina/yookassa-sdk-go/yookassa/settings"
 )
 
 const (

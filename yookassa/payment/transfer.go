@@ -1,6 +1,10 @@
 // Package yoopayment describes all the necessary entities for working with YooMoney Payments.
 package yoopayment
 
+import (
+	yoocommon "github.com/MashinaMashina/yookassa-sdk-go/yookassa/common"
+)
+
 // Information about money distribution:
 // the amounts of transfers and the stores to be transferred to.
 type Transfer struct {
