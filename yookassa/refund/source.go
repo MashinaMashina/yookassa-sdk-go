@@ -1,6 +1,10 @@
 // Package yoorefund describes all the necessary entities for working with YooMoney Refunds.
 package yoorefund
 
+import (
+	yoocommon "github.com/MashinaMashina/yookassa-sdk-go/yookassa/common"
+)
+
 // Information about money held for refunds: the amount to be held and the stores getting the refunds.
 type Source struct {
 	// ID of the store in favor of which you're accepting the receipt.
