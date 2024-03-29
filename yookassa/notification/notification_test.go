@@ -1,4 +1,4 @@
-package notification_test
+package yoonotify_test
 
 import (
 	"testing"
@@ -51,7 +51,7 @@ const PaymentBody = `{
 }`
 
 func TestParseNotificationBody(t *testing.T) {
-	notify, err := notification.ParseNotificationBody([]byte(PaymentBody))
+	notify, err := yoonotify.ParseNotificationBody([]byte(PaymentBody))
 	require.NoError(t, err)
 	require.True(t, notify.IsPayment())
 	require.False(t, notify.IsPayout())

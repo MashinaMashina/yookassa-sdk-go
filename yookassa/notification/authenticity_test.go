@@ -1,4 +1,4 @@
-package notification
+package yoonotify
 
 import (
 	"testing"

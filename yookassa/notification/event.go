@@ -1,4 +1,4 @@
-package notification
+package yoonotify
 
 type Event string
 
